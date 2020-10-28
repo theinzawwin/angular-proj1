@@ -1,0 +1,9 @@
+<p>todo-detail works!</p>
+<form [formGroup]="todoForm" (ngSubmit)="todoSubmit()">
+    <label>Title:</label>
+    <input  formControlName="title"
+    id="name" 
+    type="text" 
+    class="form-control"  />
+    <input type="submit" value="Save" />
+</form>
